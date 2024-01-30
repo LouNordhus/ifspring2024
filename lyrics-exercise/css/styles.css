@@ -1,0 +1,40 @@
+body{
+
+  background-color: lightcyan;
+}
+
+p{
+  font-size: 20px;
+  color:blueviolet
+  
+
+}
+
+h1{
+
+  color:hotpink;
+  font-size: 90px;
+
+}
+
+h2{
+
+  color:hotpink;
+  font-size: 50px;
+}
+
+
+
+div.box{
+
+    padding:0 20px 0 20px;
+    margin: 0 auto 25px auto;
+    
+  }
+
+  div.headerbox{
+
+    padding:0 20px 0 20px;
+    margin: 0 auto 5px auto;
+    
+  }
