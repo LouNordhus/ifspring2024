@@ -1,0 +1,82 @@
+html{ 
+    color: black;
+    /*font: Arial, Helvetica, sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    font-size:15pt;
+
+
+
+}
+
+body{
+    margin: 10%;
+}
+
+h1{
+  letter-spacing: spacing -0.02em; 
+  text-transform: capitalize ;
+  text-indent: -1rem;
+  font-family: "vista-slab", serif;
+
+p{
+  font-size: 13pt;
+  line-height: 1.4;
+   
+    
+}
+
+
+sup{
+   font-size:60%;
+
+}
+
+
+dfn{
+   font-weight: bold;
+   text-transform:lowercase;
+
+}
+
+small{
+     font-style:italic;
+
+
+}
+
+article{
+       margin:6rem 0 ;
+
+
+}
+
+section{
+       margin:2.5em 0;
+
+
+}
+aside{
+      text-align:center;
+     
+
+}
+
+cite{
+    display:block;
+    text-align:right;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+code{
+color: steelblue;
+}
+
+.fa-solid fa-check{
+    font-size: .8em;
+    color: red;
+}
+/* going to ask in lab why class is not working and check icon is not turning red. */

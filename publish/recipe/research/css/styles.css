@@ -1,0 +1,32 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+   
+
+}
+
+h1{
+    font-size: 60px;
+    font-family: 'Sixtyfour', sans-serif;
+}
+
+h2{
+    font-size: 20px;
+  
+}
+
+body{
+    background: linear-gradient(to right,#6495ED,slateblue,violet,#9FE2BF);
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    color: white;
+    max-width: auto;
+    margin-left: 24%;
+
+}
+
+.box{
+
+    margin-bottom: 50px;
+
+
+}
