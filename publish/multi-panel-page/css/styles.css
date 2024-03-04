@@ -45,7 +45,7 @@ h2{
 .column-container{
 
     margin: auto;
-    padding: 39px 0 39px 0;
+    padding: 39px 0 18px 0;
     max-width: 960px;
 
 }
@@ -58,7 +58,7 @@ h3{
 
 
 h4{
-    font-size: 30px;
+    font-size: 20px;
     margin: 0;
 }
 
@@ -77,17 +77,12 @@ p{
  
 
 .section-2{
-/* background-color: peachpuff; */
+ background-color: peachpuff; 
 color:navy;
 
 }
  
-.section-2 .column-container{
-   /* margin: auto;
-    padding: 20px;
-    max-width: 926px;*/
-       
-}
+
 
 .photo-grid {
     display: flex;
@@ -103,7 +98,7 @@ color:navy;
     padding-right: 20px;
     box-sizing: border-box;
     align-items: flex-start;
-    margin-bottom: 15px;
+    margin-bottom: 24px;
 
 }
 
@@ -113,13 +108,42 @@ color:navy;
 }
 
 .photo-grid div{
-    padding: 0 20px;
+    padding: 0 10px;
     box-sizing: border-box;
 }
 
 .photo-grid p {
     margin: 0;
 
+}
+
+.section-3 {
+background-color: navy;
+color:white;
+
+
+}
+
+.section-3 p {
+font-size: 30px;
+
+}
+
+
+.section-3 .column-container{
+    padding-bottom: 95px;
+}
+
+
+
+.footer-section p{
+    float:left;
+   padding: 0%;
+   margin: 0%;
+}
+.footer-section{
+    background-color: peachpuff;
+    padding-bottom: 50px;
 }
 
 
