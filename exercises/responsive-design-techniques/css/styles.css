@@ -46,6 +46,7 @@ aside {
 
 li{
     display: inline-block;
+
 }
 
 @media(max-width:100%){
@@ -63,9 +64,30 @@ li{
     }
 }
 
+#stretchable-grid-items ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#stretchable-grid-items li{
+    width: 100%;
+
+}
+
+#stretchable-grid-items aside{
+    width: auto;
+
+}
 
 
+@media(min-width:481px){
+    #stretchable-grid-items li{
+        width:50%;
+    }
+}
 
-
-
-
+@media(min-width:641px){
+    #stretchable-grid-items li{
+        width:25%;
+    }
+}
