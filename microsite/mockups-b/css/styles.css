@@ -1,0 +1,12 @@
+#pdf-container {
+    width: 100%; /* Set the width to fill the available space */
+    max-width: 800px; /* Limit the maximum width if needed */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding for spacing */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+}
+
+embed {
+    display: block; /* Ensure the embed element takes full width of its container */
+    margin: 0 auto; /* Center the PDF horizontally within its container */
+}
