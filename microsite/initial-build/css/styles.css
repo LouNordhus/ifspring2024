@@ -1,0 +1,215 @@
+
+html{
+    /* background-image:url(../imgs/sakamoto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;   */
+  color:black;
+
+}
+body{
+    margin:0;
+    padding:0;
+  
+  
+}
+
+.home h1{
+color:white;
+}
+
+
+.home h2{
+color:white;   
+}
+
+.home h3{
+    color:white;      
+}
+
+.home .navbar a{
+    color:white;
+}
+
+.navbar ul{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-decoration: none;
+    justify-content: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    position: relative;
+    z-index: 2;
+   
+}
+
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+     
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.navbar a.active {
+    text-decoration: underline; /* Underline for the active link */
+}
+h2{
+    margin-bottom: 0;
+    font-size: 183px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal
+    
+    
+}
+
+h2 u{
+    text-decoration-thickness: 5px;
+    text-decoration-skip-ink: none; 
+   
+   
+   
+}
+
+h1{
+    text-align: center;
+    font-family: Domine;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0;
+}
+
+header{
+    padding-top: 20px;
+}
+
+.home{
+    padding-left: 50px;
+    position: relative;
+    background-image:url(../imgs/sakamoto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+}
+
+
+
+.brushstroke {
+    position: absolute; 
+    top: 0px; 
+    right: 0px; 
+    z-index: 1;
+}
+
+hr{
+    width: 995px;
+    margin:0 ;
+}
+
+h3{
+    font-family: "Roboto Mono";
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.dot{
+    width: 10px;
+}
+
+h4{
+    color: #000;
+    font-family: Inter;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.grid-img-box{
+    
+}
+
+.works-grid {
+    display:flex;
+    gap: 30px;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.works-grid li{
+    width: 30%;
+}
+
+.grid-img-box img{
+    object-fit: cover;
+    width: 100%;
+    height: auto; 
+    aspect-ratio: 1 / 1;
+}
+
+
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 900px;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+  .container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+
+  .container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+
+  
+
+/* .sakamoto-home-img{
+    display: block;
+    width:100%;
+
+} */
