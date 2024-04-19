@@ -382,16 +382,16 @@ p{
     font-style: light;
     font-weight: 300;
     line-height: normal;
-    text-align: center;
+    text-align: left;
 }
  
 
   
 
-  
+/* Media Queries for mobile start here! */
+/* @media (max-width: 390px):{
+  .navbar{
+    max-width: 100 %;
 
-/* .sakamoto-home-img{
-    display: block;
-    width:100%;
-
+  }
 } */
