@@ -37,6 +37,8 @@ color:white;
     position: sticky;
     top: 0; /* Stick the navbar to the top of the viewport */
     z-index: 1000; /* Ensure a higher z-index than other elements */
+    display: flex;
+
     
 }
 
@@ -386,12 +388,34 @@ p{
 }
  
 
-  
 
-/* Media Queries for mobile start here! */
-/* @media (max-width: 390px):{
-  .navbar{
-    max-width: 100 %;
-
+@media (max-width: 390px) {
+  .navbar a {
+    /* Adjust menu styles for mobile */
+    padding: 5px;
+    font-size: 14px;
   }
-} */
+  .navbar{
+    max-width: 390px;
+  }
+  h2 {
+    font-size: 40px; /* Adjust the font size of h2 for mobile */
+  }
+ 
+ .home{
+  max-width: 390px;
+ }
+ body{
+  max-width: 390px;
+ }
+
+html{
+  max-width: 390px;
+}
+
+header{
+  max-width: 390px;
+
+}
+  }
+
