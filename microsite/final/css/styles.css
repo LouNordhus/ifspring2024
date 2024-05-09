@@ -1,10 +1,6 @@
 
 html{
-    /* background-image:url(../imgs/sakamoto.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;   */
+   
   color:black;
 
 }
@@ -36,8 +32,8 @@ color:white;
 
 .navbar {
     position: sticky;
-    top: 0; /* Stick the navbar to the top of the viewport */
-    z-index: 1000; /* Ensure a higher z-index than other elements */
+    top: 0; 
+    z-index: 1000; 
     
 }
 
@@ -45,22 +41,11 @@ color:white;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    padding: 0; /* Remove default padding */
+    padding: 0; 
 }
 
 
-/* .navbar ul{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    text-decoration: none;
-    justify-content: center;
-    justify-content: space-evenly;
-    list-style-type: none;
-    position: sticky;
-    z-index: 2;
-   
-} */
+
 
 a{
   text-decoration: none;
@@ -80,30 +65,13 @@ a{
 }
 
 .navbar a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline; 
 }
 
 .navbar a.active {
-    text-decoration: underline; /* Underline for the active link */
-}
-h2{
-    margin-bottom: 0;
-    font-size: 183px;
-    font-family: Domine;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal
-    
-    
+    text-decoration: underline; 
 }
 
-h2 u{
-    text-decoration-thickness: 5px;
-    text-decoration-skip-ink: none; 
-   
-   
-   
-}
 
 h1{
     text-align: center;
@@ -114,6 +82,23 @@ h1{
     line-height: normal;
     margin-top: 0;
 }
+
+h2{
+    margin-bottom: 0;
+    font-size: 183px;
+    font-family: Domine;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal
+     
+}
+
+h2 u{
+    text-decoration-thickness: 5px;
+    text-decoration-skip-ink: none; 
+   
+}
+
 
 header{
     padding-top: 20px;
@@ -130,13 +115,6 @@ header{
 }
 
 
-
-.brushstroke {
-    position: absolute; 
-    top: 0px; 
-    right: -50px;
-    z-index: 0;
-}
 
 hr{
     width: 870px;
@@ -166,9 +144,7 @@ h4{
     padding-left: 25px;
 }
 
-.grid-img-box{
-    
-}
+
 
 .works-grid {
     display:flex;
@@ -200,20 +176,20 @@ h4{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
-    color: #fff; /* white text */
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff; 
     font-size: 18px;
     text-align: center;
     padding-top: 20%;
-    visibility: hidden; /* initially hidden */
-    opacity: 0; /* initially transparent */
+    visibility: hidden; 
+    opacity: 0; 
     transition: opacity 0.5s;
    
   }
   
-  .container:hover .overlay {
-    visibility: visible; /* make visible on hover */
-    opacity: 1; /* fully opaque on hover */
+.container:hover .overlay {
+    visibility: visible; 
+    opacity: 1; 
   }
 
 
@@ -224,7 +200,7 @@ h4{
     margin: 0 auto;
   }
 
-  .timeline::after {
+.timeline::after {
     content: '';
     position: absolute;
     width: 4px;
@@ -235,7 +211,7 @@ h4{
     left: 50%;
     margin-left: -3px;
   }
-  .container {
+.container {
     padding: 10px 40px;
     position: relative;
     background-color: inherit;
@@ -245,7 +221,7 @@ h4{
 
   }
 
-  .container::after {
+.container::after {
     content: '';
     position: absolute;
     width: 25px;
@@ -258,18 +234,18 @@ h4{
     z-index: 1;
   }
 
-  /* Place the container to the left */
+ 
 .left {
     left: 0;
   }
   
-  /* Place the container to the right */
-  .right {
+  
+.right {
     left: 50%;
   }
   
-  /* Add arrows to the left container (pointing right) */
-  .left::before {
+  
+.left::before {
     content: " ";
     height: 0;
     position: absolute;
@@ -282,12 +258,12 @@ h4{
     border-color: transparent transparent transparent white;
   }
 
-  .left::after {
+.left::after {
     right: -14.5px;
   }
   
-  /* Add arrows to the right container (pointing left) */
-  .right::before {
+  
+.right::before {
     content: " ";
     height: 0;
     position: absolute;
@@ -300,34 +276,34 @@ h4{
     border-color: transparent white transparent transparent;
   }
   
-  /* Fix the circle for containers on the right side */
-  .right::after {
+ 
+.right::after {
     left: -16px;
   }
   
-  /* The actual content */
-  .content {
+ 
+.content {
     padding: 20px 30px;
     background-color: white;
     position: relative;
     border-radius: 6px;
   }
   
-  /* Media queries - Responsive timeline on screens less than 600px wide */
+  
   @media screen and (max-width: 600px) {
-    /* Place the timelime to the left */
+    
     .timeline::after {
     left: 31px;
     }
     
-    /* Full-width containers */
+   
     .container {
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
     }
     
-    /* Make sure that all arrows are pointing leftwards */
+   
     .container::before {
     left: 60px;
     border: medium solid white;
@@ -335,12 +311,12 @@ h4{
     border-color: transparent white transparent transparent;
     }
   
-    /* Make sure all circles are at the same spot */
+    
     .left::after,.right::after {
     left: 15px;
     }
     
-    /* Make all right containers behave like the left ones */
+    
     .right {
     left: 0%;
     }
@@ -391,13 +367,6 @@ p{
    
 }
 
-.bstroke-container{
-    width:10px;
-    height:10px;
-    z-index: 1;
-    position: absolute;
-
-}
 
 .bio-box p{
   z-index: 4;
@@ -414,21 +383,21 @@ footer{
 }
 
 footer img{
-  width: 100%; /* Make the image fill the container horizontally */
-  height: 100%; /* Make the image fill the container vertically */
+  width: 100%; 
+  height: 100%; 
   object-fit: cover;
 }
 
 
 @media (max-width: 390px) {
   .navbar a {
-    /* Adjust menu styles for mobile */
+    
     padding: 5px;
     font-size: 14px;
   }
 
   h2 {
-    font-size: 40px; /* Adjust the font size of h2 for mobile */
+    font-size: 40px; 
   }
  
 
@@ -485,14 +454,4 @@ h4{
 
 
 
-/* Other styles for mobile devices */
-
-
-/* Media Queries for mobile start here! */
-/* @media (max-width: 390px):{
-  .navbar{
-    max-width: 100 %;
-
-  }
-} */
 
